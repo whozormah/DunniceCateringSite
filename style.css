@@ -1,0 +1,30 @@
+:root{
+    --primarycolour:#226caa;
+    --primarycolourvariant: rgba(0, 76, 255, 0.2);
+    --colourwhite: #fff;
+    --colourDark: #4b4a53;
+    --colourlight: #f5f5f5;
+    --colourblack: #0f0f1b;
+
+
+    --container-width-lg: 82%;
+    --container-width-md: 90%;
+    --container--width-lg: 92%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: var(--colourDark);
+}
