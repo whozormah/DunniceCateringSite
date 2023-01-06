@@ -57,7 +57,6 @@ h5{
 }
 img{
     width: 100%;
-    object-fit: cover;
 }
 .container{
     width: var(--container--width-desktop);
@@ -131,5 +130,81 @@ nav button{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 4rem;
+    gap: 2.5rem;
+}
+/*==========header===========*/
+header{
+    height: calc(100vh - 5rem);
+    position: relative;
+    top: 5rem;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+.hero-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100%;
+}
+header .header-left{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.header-left h3{
+    color: var(--primarycolour);
+    margin-bottom: 0.5rem;
+}
+.header-left p{
+    margin: 1.2rem 0 2rem;
+}
+.header-right{
+    position: relative;
+    height: 100%;
+}
+/*==========header===========
+.right-background{
+    width: 65rem;
+    height: 65rem;
+    background-color: var(--primarycolour);
+    border-radius: 50%;
+    position: absolute;
+    right: -30rem;
+    bottom: -30rem;
+*/
+.click-images{
+    position: absolute;
+    right: 3rem;
+    bottom: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.click-images img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    display: block;
+    cursor: pointer;
+    transition: var(--transition);
+}
+.click-images img:hover{
+    transform: translateX(-1rem);
+}
+.ball{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: var(--primarycolour);
+    clip-path: circle(40rem at right);
+}
+.food-image img{
+    width: 40%;
+    position: absolute;
+    bottom: -1rem;
+    z-index: 1;
+    
 }
