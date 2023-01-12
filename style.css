@@ -196,6 +196,7 @@ section#deals{
 
 /*======================About US===================*/
 section#ourstory{
+    position: relative;
     margin-top: 8rem;
 }
 .ourstory-container{
@@ -205,8 +206,11 @@ section#ourstory{
 }
 .ourstory-left{
     background-color: var(--primarycolour);
-    padding: 2rem;
+    padding: 1rem;
     color: var(--colourlight);
+}
+.ourstory-right h2{
+    text-align: center;
 }
 .ourstory-left h1{
     font-size: 6rem;
@@ -226,26 +230,19 @@ section#ourstory{
     grid-template-columns: repeat(3,1fr);
     gap: 2rem;
 }
-.vision, .mission,.corevalues{
+.vision{
     background-color: var(--colourlight);
-    padding: 4rem 2rem;
+    padding: 2rem 1rem;
     transition: var(--transition);
     cursor: default;
 }
-.corevalues:hover{
+.vision:hover{
     background-color: var(--primarycolour);
     color: var(--colourwhite);
 }
-.vision:hover {
-    background-color: var(--primarycolour);
+.vision:hover * {
     color: var(--colourwhite);
-}
-.mission:hover{
-    background-color: var(--primarycolour);
-    color: var(--colourwhite);
-}
-.storytitle:hover{
-    color: var(--colourwhite);
+    transition: var(--transition);
 }
 
 .storyicon{
