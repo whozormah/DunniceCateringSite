@@ -390,3 +390,53 @@ section#services{
 .faqs.open p {
     display: block;
 }
+
+
+/*====================== Contact ==================*/
+#contactUs{
+    background-color: var(--primarycolour);
+    color: var(--colourwhite);
+    margin: 0;
+}
+.contact-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7rem;
+    font-size: 0.9rem;
+}
+.contact-container h2{
+    color: var(--colourwhite);
+}
+.contact-container small{
+    margin: 1rem 0 3rem;
+}
+.contact-socials{
+    display: flex;
+    gap: 1rem;
+}
+.contact-socials a{
+    color: var(--colourwhite);
+    font-size: 1.4rem;
+   transition: var(--transition);
+}
+.contact-socials a:hover{
+    color: var(--colourblack);
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.contact-form input, textarea{
+    padding: 1rem;
+}
+
+
+
+footer{
+    text-align: center;
+    background-color: var(--primarycolour);
+    color: var(--colourwhite);
+    font-size: 0.7rem;
+    padding: 0.8rem 0 ;
+}
