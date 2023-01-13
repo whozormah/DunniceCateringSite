@@ -308,5 +308,37 @@ section#services{
 .serviceweoffer-image img{
     transform: 0;
     transition: all 5s ease;
+}
 
+#testimonials h2,p{
+    text-align: center;
+}
+.testimonials-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 2rem;
+}
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color: var(--colourlight);
+    padding: 2rem;
+    font-size: 0.8rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+.testimonial:hover{
+    background: transparent;
+    border-color: var(--primarycolourvariant,);
+    color: var(--primarycolour);
+    box-shadow: 0 1rem 2rem var(--primarycolourvariant);
+    z-index: 1;
+}
+.avatar{
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+   
 }
