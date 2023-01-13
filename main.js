@@ -15,3 +15,21 @@ faq.forEach(faq => {
         }
     })
 })
+
+// menubtn------------!SECTION
+const menuBtn = document.querySelector('#open-btn');
+const closeBtn = document.querySelector('#close-btn');
+const menu = document.querySelector('.nav-menu');
+
+
+// open MEnu------------!SECTION
+menuBtn.addEventListener('click', () => {
+     menu.style.display = 'block';
+     menuBtn.style.display = 'none';
+     closeBtn.style.display = 'block';
+})
+
+// Close MEnu------------!SECTION
+closeBtn.addEventListener('click',() => {
+    menu.style.display = 'none';
+})
