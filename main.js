@@ -37,3 +37,11 @@ const closeNav = () => {
 } 
 
 closeBtn.addEventListener('click', closeNav);
+
+
+//close Menu list when items are clicked
+if(window.innerWidth < 1024){
+    document.querySelectorAll(".nav-menu li a").forEach(navItem => {
+        navItem.addEventListener('click', closeNav);
+    })
+}       

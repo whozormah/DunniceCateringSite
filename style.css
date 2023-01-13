@@ -621,6 +621,61 @@ footer{
     /*=======MEDIA QUERIES Mobile NAV ++++++++++*/
     nav button{
         margin: 0rem;
-        
+        font-size: 1.8rem;
+
     }
+    /*=======MEDIA QUERIES Mobile header ++++++++++*/
+    header{
+        height: 100vh;
+        padding: 0;
+    }
+    .header-container{
+        grid-template-columns: 1fr;
+        margin-top: 4rem;
+        gap: 0;
+    }
+    .header-left{
+        text-align: center;
+        margin-bottom: 2.2rem;
+    }
+    .header-container img{
+        position: relative;
+        margin-top: -2rem auto;
+        width: 90%;
+    }
+    .header-socials{
+        position: absolute;
+        z-index: 1;
+        bottom: 15rem;
+         
+    }
+         /*=======Our storey+++++++*/
+         .ourstory-container{
+            grid-template-columns: 1fr;
+          }
+
+   .service-header{
+    grid-template-columns: 1fr;
+   }
+
+   .servicesweoffer{
+    grid-template-columns: 1fr;
+   }
+
+
+   .testimonial{
+    padding: 1rem;
+   }
+
+
+   .contact-container{
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    text-align: center;
+   }
+
+
+   .contact-socials{
+    justify-content: center;
+   }
 }
