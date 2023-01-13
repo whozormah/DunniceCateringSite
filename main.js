@@ -30,6 +30,10 @@ menuBtn.addEventListener('click', () => {
 })
 
 // Close MEnu------------!SECTION
-closeBtn.addEventListener('click',() => {
+const closeNav = () => {
     menu.style.display = 'none';
-})
+    menuBtn.style.display = 'inline-block';
+    closeBtn.style.display = 'none';
+} 
+
+closeBtn.addEventListener('click', closeNav);
