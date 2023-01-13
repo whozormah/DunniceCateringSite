@@ -190,6 +190,7 @@ section#deals{
     margin: 0;
 }
 .deals-container img{
+    position: relative;
     width: 100%;
 }
 /*======================WhatwedoSection ENDS===================*/
@@ -198,6 +199,7 @@ section#deals{
 section#ourstory{
     position: relative;
     margin-top: 8rem;
+    
 }
 .ourstory-container{
     display: grid;
@@ -247,4 +249,40 @@ section#ourstory{
 
 .storyicon{
     font-size: 2rem;
+}
+/*======================About US ENDS===================*/
+
+
+
+/*====================== services===================*/
+section#services{
+    background-color: #fdf8f9;
+}
+.services-container{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 2rem;
+    
+}.servicesright{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-right: 1rem;
+}
+.category{
+    background-color: var(--primarycolour);
+    padding: 1rem;
+    border-radius: 2rem;
+    color: var(--colourlight);
+}
+.category h5{
+    margin: 1rem 0 1rem;
+}
+.category span{
+    background-color: v#fdf8f9;
+    padding: 0.7rem;
+    border-radius: 0.9rem;
+}
+.category p{
+    font-size: 0.8rem;
 }
